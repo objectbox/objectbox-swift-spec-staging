@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ObjectBox"
-  spec.version      = "1.0"
+  spec.version      = "1.0.0-rc.1"
   spec.summary      = "ObjectBox is a superfast, lightweight database for objects."
 
   spec.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
   # How to obtain the contents
   spec.source = {
-    :http => 'https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.0/ObjectBox-framework-1.0.zip', 
+    :http => 'https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.0/ObjectBox-framework-1.0.0-rc.1.zip',
   }
   spec.preserve_paths = '{templates,*.rb,*.sh,*.command,*.app}'
   spec.ios.vendored_frameworks = "Carthage/Build/iOS/ObjectBox.framework"
