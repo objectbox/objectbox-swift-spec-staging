@@ -21,5 +21,5 @@ Pod::Spec.new do |spec|
   }
   spec.preserve_paths = '{templates,*.rb,*.sh,*.command,*.app,*.generated.swift}'
   spec.ios.vendored_frameworks = "Carthage/Build/iOS/ObjectBox.framework"
-  spec.osx.vendored_frameworks = "Carthage/Build/Mac/ObjectBox.framework"
+  spec.osx.vendored_frameworks = [ "Carthage/Build/Mac/ObjectBox.framework", "Carthage/Build/Mac/OBXCodeGen.framework" ]
 end
