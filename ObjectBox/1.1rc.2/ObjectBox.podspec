@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.source = {
     :http => 'https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.1.0-rc.2/ObjectBox-framework-1.1rc.2.zip', 
   }
-  spec.preserve_paths = '{templates,*.rb,*.sh,*.command,*.app,*.generated.swift}'
+  spec.preserve_paths = '{templates,*.rb,*.sh,*.command,*.app,*.generated.swift,Carthage/Build/Mac/OBXCodeGen.framework}'
   spec.ios.vendored_frameworks = "Carthage/Build/iOS/ObjectBox.framework"
-  spec.osx.vendored_frameworks = [ "Carthage/Build/Mac/ObjectBox.framework", "Carthage/Build/Mac/OBXCodeGen.framework" ]
+  spec.osx.vendored_frameworks = "Carthage/Build/Mac/ObjectBox.framework"
 end
