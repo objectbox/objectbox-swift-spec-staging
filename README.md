@@ -1,5 +1,5 @@
-# objectbox-swift-spec-staging
+# ObjectBox Staging repository
 
-CocoaPods spec repo for pre-release tests.
+CocoaPods/Carthage spec repo for **pre-release** versions of [ObjectBox Swift](https://github.com/objectbox/objectbox-swift).
 
-**Please get your final versions from the official CocoaPods repository.**
+**THIS IS NOT THE OFFICIAL RELEASE CHANNEL.**
