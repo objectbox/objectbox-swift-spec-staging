@@ -1,4 +1,6 @@
 {
+  "1.5.0-beta1": "https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.x/ObjectBox-xcframework-1.5.0-beta1.zip",
+  "1.5.0-sync-rc5": "https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.x/ObjectBox-xcframework-1.5.0-sync-rc5.zip",
   "1.4.1": "https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.x/ObjectBox-1.4.1-Carthage.framework.zip",
   "1.4.0-rc": "https://github.com/objectbox/objectbox-swift-spec-staging/releases/download/v1.x/ObjectBox-1.4.0-RC-Carthage.framework.zip"
 }
